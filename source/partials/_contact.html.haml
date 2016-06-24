@@ -1,0 +1,24 @@
+#contact
+  .form
+    %h1 Contact
+    %form{ :id => "contact_form", :action => "https://formspree.io/gurvircheema@hotmail.com", :method => "POST"}
+      .input-wrapper
+        %label.label Name:
+        %input{:type => "text", :name => "name", :placeholder => "Your name", :required => true }
+      %br
+      .input-wrapper
+        %label Email:
+        %input{:type => "email", :name => "_replyto", :placeholder => "Your email", :required => true}
+      %br
+      .input-wrapper
+        %label Subject:
+        %input{:type => "text", :name => "_subject", :placeholder => "Subject", :required => true}
+        %input{:type => "hidden", :name => "_next", :value => "/"}
+      %br
+      .input-wrapper
+        %label Message:
+        %textarea{:type => "text", :name => "message", :placeholder => "Your Message goes here", :required => true}
+      %br
+      .input-wrapper
+        %input{:type => "submit", :value => "Send Message"}
+      %p ( I usually reply within 24-48 hours )

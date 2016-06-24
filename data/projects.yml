@@ -1,0 +1,39 @@
+-
+  name: Glitz'n Glam
+  description: E-Commerce website for designer clothing shop
+  date: April 20, 2016
+  status: In Progress
+  skills:
+    - Ruby on Rails
+    - HTML5
+    - CSS3
+    - JavaScript
+    - Bootstrap
+  hosted: http://shop.gurvircheema.com/
+  image: glitz.png
+-
+  name: Lafarge
+  description: Class project made for Lafarge Construction Company to replace paper login and tracking of people on site with web app
+  date: November 15, 2015
+  status: Not in use
+  skills:
+    - Ruby on Rails
+    - HTML5
+    - CSS3
+    - Bootstrap
+  hosted: https://lafarge351.herokuapp.com/
+  image: lafarge.png
+-
+  name: Manage Expense
+  description: A personal app built for managing expenses
+  date: June 10, 2015
+  status: Suspended
+  skills:
+    - Ruby on Rails
+    - Bootstrap
+    - HTML5
+    - CSS3
+  hosted: http://expenses.gurvircheema.com
+  image: expense.png
+
+

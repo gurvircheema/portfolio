@@ -1,0 +1,30 @@
+#skills
+  .slider-for
+    %div
+      .background-image{style: "background-image: url(images/me.jpg)"}
+      .content
+        %h1 About Me
+        %h3= data.skills.AboutMe.Caption
+        %p= data.skills.AboutMe.P1
+        %p= data.skills.AboutMe.P2
+    %div
+      .background-image{style: "background-image: url(images/code.jpg)"}
+      .content
+        %h1 Skills
+        - data.skills.Skills.each do |skill|
+          %p= skill
+    %div
+      .background-image{style: "background-image: url(images/grad.jpg)"}
+      .content
+        %h1 Education
+        - data.skills.Education.each do |edu|
+          %p
+            %span= edu[0]
+            = edu[1]
+  .slider-nav
+    %div
+      %p About Me
+    %div
+      %p Skills
+    %div
+      %p Education

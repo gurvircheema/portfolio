@@ -1,0 +1,31 @@
+---
+title: Gurvir Cheema's Portfolio
+---
+.wrapper
+  .cover
+    .navbar
+      .navbar-content
+        .logo Gurvir Cheema
+        .menu
+          #menu-icon= link_to "", "#"
+          %ul
+            %li= link_to "Portfolio", "#top"
+            %li= link_to "Skills", "#skills"
+            %li= link_to "Projects", "#projects"
+            %li= link_to "Contact", "#contact"
+    #top
+    .intro
+      .picture
+        = image_tag('pp.png')
+      .hello I'm Gurvir Cheema
+      %hr
+      .desc Web Developer
+  = partial 'partials/skills'
+  .clear
+  = partial 'partials/projects'
+  .clear
+  = partial 'partials/contact'
+= partial 'partials/footer'
+
+
+
