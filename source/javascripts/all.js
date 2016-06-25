@@ -26,21 +26,27 @@ $(document).ready(function(){
     $(this).parent().append("<p style='color:red;'>Submitted</p>")
   })
 
-  $(window).scroll(function(){
-    var wScroll = $(this).scrollTop();
+  if($(window).width > 768 ) {
+    $(window).scroll(function(){
+      var wScroll = $(this).scrollTop();
 
-    $('.navbar').css({
-      'transform': 'translate(0px, ' + wScroll/2 + '%)'
+      $('.navbar').css({
+        'transform': 'translate(0px, ' + wScroll/2 + '%)'
+      });
+
+      $('.intro').css({
+        'transform': 'translate(0px, -' + wScroll/40 + '%)'
+      });
+
+      if( wScroll > $('.row').offset().top - ($(window).height()/1.7)){
+        check_if_in_view();
+      }
     });
-
-    $('.intro').css({
-      'transform': 'translate(0px, -' + wScroll/40 + '%)'
-    });
-
-    if( wScroll > $('.row').offset().top - ($(window).height()/1.7)){
+  }else {
+    $(window).scroll(function(){
       check_if_in_view();
-    }
-  });
+    });
+  }
 
 })
 

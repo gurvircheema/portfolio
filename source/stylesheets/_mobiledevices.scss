@@ -45,22 +45,22 @@
         display: inline-block;
         height: 40px;
         width: 40px;
-        background: #4C8FEC url(../images/menu.png) center no-repeat;
+        background: url(../images/menu.png) center no-repeat;
         border-radius: 5px;
       }
 
       ul {
         list-style-type: none;
         display: none;
-        position: absolute;
+        position: fixed;
         background: #fff;
         right: 10px;
-        top: 50px;
+        top: 75px;
         width: 90vw;
         border-radius: 4px 0 4px 0;
-        -moz-box-shadow:    3px 3px 5px 6px #000;
-        -webkit-box-shadow: 3px 3px 5px 6px #000;
-        box-shadow:         3px 3px 5px 6px #000;
+        -moz-box-shadow:    3px 3px 5px 6px #333;
+        -webkit-box-shadow: 3px 3px 5px 6px #333;
+        box-shadow:         3px 3px 5px 6px #333;
         li {
           text-align: center;
           width: 100%;
