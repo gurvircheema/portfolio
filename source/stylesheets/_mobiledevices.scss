@@ -159,7 +159,7 @@
         width: 90%;
         max-width: 90%;
         margin: 8% auto;
-        height: 400px;
+        height: 500px;
         z-index: 2;
         position: relative;
         color: #fff;
@@ -167,6 +167,43 @@
         background-color: rgba(0,0,0,0.6);
         box-sizing: border-box;
         padding: 50px;
+
+        .caption {
+          color: #FC2B47;
+          font-size: 1.8em;
+        }
+        .para{
+          color: #E4E6B3;
+          margin: 10px 0;
+        }
+        .skill {
+          vertical-align: middle;
+          color: #3DFCFF;
+          font-size: 1.2em;
+        }
+        .stars {
+          display: block;
+        }
+        img {
+          display: inline;
+          vertical-align: middle;
+          height: 20px;
+          width: 20px;
+        }
+
+        .edu {
+          display: block;
+          color: #FC2B47;
+          font-size: 1em;
+          letter-spacing: 2px;
+        }
+
+        .education {
+          font-size: 1.2em;
+          padding-bottom: 5px;
+          color: #E4E6B3;
+          font-size: 1.4em;
+        }
       }
     }
 
@@ -276,6 +313,13 @@
     }
   }
 
+  .status {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+  }
+
   .title {
     font-family: 'Lobster', cursive;
     font-size: 2.0em;
@@ -315,7 +359,7 @@
           padding: 5px 0;
           display: block;
           width: 15%;
-          text-align: right;
+          text-align: left;
           padding-right: 10px;
         }
 

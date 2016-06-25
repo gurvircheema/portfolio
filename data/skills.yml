@@ -1,21 +1,16 @@
 Skills:
-  - Ruby on Rails
-    - 7
-  - HTML5
-    - 8
-  - CSS3
-    - 8
-  - JavaScript
-    - 7
-  - JQuery
-    - 7
+  Ruby on Rails: 7
+  HTML5: 8
+  CSS3: 8
+  JavaScript: 7
+  JQuery: 7
 Education:
-  School: University of the Fraser Valley
+  University: University of the Fraser Valley
   GPA: 3.7
   Program: Bachelors Degree
   ProgramName: Computer Information Systems
-  Major: Software Development
+  Major: Software Development (2016)
 AboutMe:
   Caption: Young Web Developer
-  P1: I am vancouver based young web developer who started working on ruby on rails as initial web programming language and absolutely fell in love with it. Now i aspire to be professional in this field
-  P2: Currently i am doing some freelancing work for myself or for small businesses both locally and overseas.
+  P1: I am vancouver based young web developer who first started building sites and web application at university using Ruby on Rails and absolutely fell in love with it. Now i aspire to be professional in this field
+  P2: Currently i am doing some freelancing work for myself and for small businesses both locally and overseas.

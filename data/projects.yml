@@ -8,7 +8,12 @@
     - HTML5
     - CSS3
     - JavaScript
+    - JQuery
     - Bootstrap
+    - Haml
+    - Font Awesome
+    - SASS
+    - AWS
   hosted: http://shop.gurvircheema.com/
   image: glitz.png
 -
@@ -21,18 +26,21 @@
     - HTML5
     - CSS3
     - Bootstrap
+    - Devise
+    - SASS
   hosted: https://lafarge351.herokuapp.com/
   image: lafarge.png
 -
   name: Manage Expense
   description: A personal app built for managing expenses
   date: June 10, 2015
-  status: Suspended
+  status: Personal Use mostly
   skills:
     - Ruby on Rails
     - Bootstrap
     - HTML5
     - CSS3
+    - Jquery
   hosted: http://expenses.gurvircheema.com
   image: expense.png
 

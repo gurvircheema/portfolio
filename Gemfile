@@ -17,3 +17,5 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-jquery', '2.1.1'
   gem 'rails-assets-slick.js', '1.5.7'
 end
+
+gem 'middleman-deploy', '~> 1.0'

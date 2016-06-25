@@ -204,6 +204,46 @@ body {
         background-color: rgba(0,0,0,0.6);
         box-sizing: border-box;
         padding: 50px;
+
+        .caption {
+          color: #FC2B47;
+          font-size: 1.8em;
+        }
+        .para{
+          color: #E4E6B3;
+          margin: 10px 0;
+          font-size: 1.2em;
+        }
+        .skill {
+          float: left;
+          vertical-align: middle;
+          color: #3DFCFF;
+          font-size: 1.2em;
+        }
+        .stars {
+          float: right;
+        }
+        img {
+          display: inline;
+          vertical-align: middle;
+          height: 30px;
+          width: 30px;
+        }
+
+        .edu {
+          display: block;
+          text-decoration: underline;
+          color: #FC2B47;
+          font-size: 1em;
+          letter-spacing: 2px;
+        }
+
+        .education {
+          font-size: 1.2em;
+          padding-bottom: 5px;
+          color: #E4E6B3;
+          font-size: 1.4em;
+        }
       }
     }
 
@@ -346,6 +386,13 @@ body {
       transform: scale(1.15);
       transition: all 0.3s ease-in-out;
     }
+  }
+
+  .status {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
   }
 
   .title {

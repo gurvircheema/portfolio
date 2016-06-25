@@ -4,23 +4,30 @@
       .background-image{style: "background-image: url(images/me.jpg)"}
       .content
         %h1 About Me
-        %h3= data.skills.AboutMe.Caption
-        %p= data.skills.AboutMe.P1
-        %p= data.skills.AboutMe.P2
+        %h3.caption= data.skills.AboutMe.Caption
+        %p.para= data.skills.AboutMe.P1
+        %p.para= data.skills.AboutMe.P2
     %div
       .background-image{style: "background-image: url(images/code.jpg)"}
       .content
         %h1 Skills
         - data.skills.Skills.each do |skill|
-          %p= skill
+          %p
+            %span.skill= skill[0]
+            %span.stars
+              - for i in (1..skill[1])
+                = image_tag('star-filled.png')
+              - for i in (skill[1]..10)
+                = image_tag('star-empty.png')
+            .clear
     %div
       .background-image{style: "background-image: url(images/grad.jpg)"}
       .content
         %h1 Education
         - data.skills.Education.each do |edu|
           %p
-            %span= edu[0]
-            = edu[1]
+            %span.edu= edu[0]
+            .education= edu[1]
   .slider-nav
     %div
       %p About Me
