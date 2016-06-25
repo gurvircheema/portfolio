@@ -75,7 +75,7 @@ GEM
       servolux
       tilt (~> 1.4.1)
       uglifier (~> 3.0)
-    middleman-deploy (1.0.0)
+    middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
       net-sftp
       ptools
@@ -125,7 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (>= 4.0.0)
-  middleman-deploy (~> 1.0)
+  middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-livereload
   middleman-sprockets (~> 4.0.0.rc.1)
   rails-assets-jquery (= 2.1.1)!

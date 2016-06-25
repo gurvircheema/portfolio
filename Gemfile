@@ -18,4 +18,4 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-slick.js', '1.5.7'
 end
 
-gem 'middleman-deploy', '~> 1.0'
+gem 'middleman-deploy', '~> 2.0.0-alpha'
