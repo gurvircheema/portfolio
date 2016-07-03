@@ -3,7 +3,7 @@
     %h1 Projects
     %hr.underline
     - data.projects.each do |project|
-      .row.animation-element
+      .row
         .picture-holder
           = link_to image_tag(project.image), project.hosted, target: '_blank'
         .desc
