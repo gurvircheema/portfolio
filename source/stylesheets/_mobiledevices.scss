@@ -56,19 +56,25 @@
       ul {
         display: none;
         list-style-type: none;
+        padding-bottom: 1px;
         width: 100%;
         text-align: center;
         background-color: #2d3e4f;
+        border-top: 1px solid white;
 
         li {
-          padding: 5px 0;
-
+          padding: 10px 0;
+          margin: 10px 5px;
+          border: 1px solid white;
+          background-color: #56718C;
+          border-radius: 5px;
           &:hover {
             background-color: #56718C;
             border-radius: 5px;
           }
 
           a {
+            display: block;
             text-decoration: none;
             color: white;
           }
