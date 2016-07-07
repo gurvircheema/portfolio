@@ -26,6 +26,10 @@ $(document).ready(function(){
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   });
 
+  $('.top').click(function(){
+    $('html,body').animate({scrollTop:(0,0)}, 500);
+  });
+
   $('contact_form').submit(function(e){
     e.preventDefault();
     $(this).parent().append("<p style='color:red;'>Submitted</p>")
