@@ -5,7 +5,7 @@
 $link-color: white;
 
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   width: 100vw;
   height: 100vh;
@@ -105,8 +105,10 @@ body {
         li {
           display: inline;
           margin: 10px;
+          padding: 14px 16px;
 
           a {
+            display: inline-block;
             text-decoration: none;
             color: $link-color;
             cursor: pointer;
@@ -119,9 +121,10 @@ body {
               color: $link-color;
             }
             &:hover{
-              transform: scale(1.2);
+              color: #4c8fec
             }
           }
+
         }
       }
     }
@@ -257,13 +260,13 @@ body {
       div {
         text-align: center;
         background-color: #2d3e4f;
-        box-shadow: 10 10 5px black;
         p {
           height: 50px;
           line-height: 50px;
           &:hover {
             transform: scale(1.2);
-            text-decoration: underline;
+            transition: all 0.3s ease-in-out;
+            color: #4c8fec;
           }
         }
       }

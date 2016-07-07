@@ -21,11 +21,23 @@ $(document).ready(function(){
     focusOnSelect: true
   })
 
+  $('a[href*="#"]:not(a[href="#"])').click(function(){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+  });
+
   $('contact_form').submit(function(e){
     e.preventDefault();
     $(this).parent().append("<p style='color:red;'>Submitted</p>")
   })
 
+  $('#menu-icon').click(function(){
+    $(this).next().toggleClass('show-menu');
+  });
+
+  $('.menu li').click(function(){
+    $(this).parent().toggleClass('show-menu');
+  });
   if($(window).width() > 768 ) {
     $(window).scroll(function(){
       var wScroll = $(this).scrollTop();
